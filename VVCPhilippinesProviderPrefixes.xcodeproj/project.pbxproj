@@ -10,6 +10,9 @@
 		863F0C5E2265C55B003C809B /* VVCPhilippinesProviderPrefixes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 863F0C542265C55B003C809B /* VVCPhilippinesProviderPrefixes.framework */; };
 		863F0C632265C55B003C809B /* VVCPhilippinesProviderPrefixesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863F0C622265C55B003C809B /* VVCPhilippinesProviderPrefixesTests.swift */; };
 		863F0C652265C55B003C809B /* VVCPhilippinesProviderPrefixes.h in Headers */ = {isa = PBXBuildFile; fileRef = 863F0C572265C55B003C809B /* VVCPhilippinesProviderPrefixes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86AA6BE32265CB74001957E2 /* Curry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 863F0C762265C98D003C809B /* Curry.framework */; };
+		86AA6BE52265CB83001957E2 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86AA6BE42265CB83001957E2 /* Quick.framework */; };
+		86AA6BE72265CB90001957E2 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86AA6BE62265CB90001957E2 /* Nimble.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,8 @@
 		863F0C622265C55B003C809B /* VVCPhilippinesProviderPrefixesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VVCPhilippinesProviderPrefixesTests.swift; sourceTree = "<group>"; };
 		863F0C642265C55B003C809B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		863F0C6E2265C98D003C809B /* Curry.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Curry.xcodeproj; path = Carthage/Checkouts/Curry/Curry.xcodeproj; sourceTree = "<group>"; };
+		86AA6BE42265CB83001957E2 /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86AA6BE62265CB90001957E2 /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86AA6BE32265CB74001957E2 /* Curry.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +78,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86AA6BE72265CB90001957E2 /* Nimble.framework in Frameworks */,
+				86AA6BE52265CB83001957E2 /* Quick.framework in Frameworks */,
 				863F0C5E2265C55B003C809B /* VVCPhilippinesProviderPrefixes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -86,6 +94,7 @@
 				863F0C562265C55B003C809B /* VVCPhilippinesProviderPrefixes */,
 				863F0C612265C55B003C809B /* VVCPhilippinesProviderPrefixesTests */,
 				863F0C552265C55B003C809B /* Products */,
+				86AA6BDE2265CB74001957E2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +134,15 @@
 				863F0C7C2265C98D003C809B /* Curry.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		86AA6BDE2265CB74001957E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86AA6BE62265CB90001957E2 /* Nimble.framework */,
+				86AA6BE42265CB83001957E2 /* Quick.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
