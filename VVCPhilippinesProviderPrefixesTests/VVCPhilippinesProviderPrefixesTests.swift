@@ -7,7 +7,7 @@
 //
 
 import XCTest
-import VVCPhilippinesProviderPrefixes
+@testable import VVCPhilippinesProviderPrefixes
 import Quick
 import Nimble
 
@@ -15,8 +15,11 @@ import Nimble
 class VVCPhilippinesProviderPrefixesTests: QuickSpec {
   override func spec() {
     describe("VVCPhilippinesProviderPrefixes") {
-      it("works") {
-        expect(true).to(beTrue())
+      it("is not Empty") {
+        let a = VVCMobileNetwork()
+        
+        debugPrint(a.providers)
+        expect(a.providers).notTo(beEmpty())
       }
     }
   }

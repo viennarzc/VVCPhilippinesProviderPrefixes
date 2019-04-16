@@ -1,0 +1,37 @@
+[
+	{
+		"name":"globe",
+		"displayName":"Globe",
+		"prefixes":[817,973]
+	},
+
+	{
+		"name":"globetm",
+		"displayName":"Globe/TM",
+		"prefixes":[904,905,906,915,916,917,926,927,936,945,956,966,967,975,977,978,979,995,997]
+	},
+
+	{
+		"name":"tnt",
+		"displayName":"Talk 'N Text",
+		"prefixes":[907,909,910,912,930,938,946,948,950]
+	},
+
+	{
+		"name":"globeprepaid",
+		"displayName":"Globe Prepaid",
+		"prefixes":[9173,9175,9176,9178,9253,9255,9256,9257,9258]
+	},
+
+	{
+		"name":"smart",
+		"displayName":"Smart",
+		"prefixes":[813,913,919,928,947,981,999,908,914,920,929,949,989,911,918,921,939,970,998]
+	},
+
+	{
+		"name":"sun",
+		"displayName":"Sun Cellular",
+		"prefixes":[922,923,924,925,931,932,933,934,941,942,943,944]
+	}
+]
