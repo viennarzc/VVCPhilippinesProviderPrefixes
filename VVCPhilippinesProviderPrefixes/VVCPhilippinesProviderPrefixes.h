@@ -2,7 +2,7 @@
 //  VVCPhilippinesProviderPrefixes.h
 //  VVCPhilippinesProviderPrefixes
 //
-//  Created by SCI-Viennarz on 16/04/2019.
+//  Created by Viennarz on 16/04/2019.
 //  Copyright © 2019 VVCSoft. All rights reserved.
 //
 
